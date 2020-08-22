@@ -115,11 +115,13 @@ type SimpleData struct {
 // the rest is just using xml to parse
 func KmlDecode(f *bytes.Buffer, kml *Kml) {
 
-	//xml.Unmarshal(f, kml)
+	// xml.Unmarshal(f, kml)
 	d := xml.NewDecoder(f)
 
+	// place all the xml where it belongs
 	d.Decode(kml)
 
+	// change coords from string >> [][]float64
 	for i, geom := range kml.Document.Folder.Placemarks {
 
 		// if point
@@ -151,6 +153,7 @@ func KmlDecode(f *bytes.Buffer, kml *Kml) {
 	}
 }
 
+// coordStringDecode performs the parsing and number conversion
 func coordStringDecode(str string) [][]float64 {
 	temp := strings.Split(str, " ")
 
