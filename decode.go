@@ -1,126 +1,178 @@
 package kmldecode
 
 import (
+	"bytes"
 	"encoding/xml"
-	"fmt"
-	"io/ioutil"
-	"os"
+	"strconv"
+	"strings"
 )
 
 // the complete array of all items
 type Kml struct {
-	Document Document `xml:"Document"`
+	XMLName  xml.Name `xml:"kml" json:"kml"`
+	//XMLNS    string   `xml:"xmlns,attr" json:"xmlns,attr"`
+	Document Document `xml:"Document" json:"Document"`
 }
 
 // the Document struct, containing Schema
 // and Folders
 type Document struct {
-	XMLName xml.Name      `xml:"Document"`
-	Schema  []SimpleField `xml:"Schema"`
-	Folder  Folder        `xml:"Folder"`
+	//XMLName xml.Name `xml:"Document" json:"Document"`
+	Id     string `xml:"id,attr" json:"id,attr"`
+	Schema Schema `xml:"Schema" json:"Schema"`
+	Folder Folder `xml:"Folder" json:"Folder"`
 }
 
 // Schema describes the types of the extended attributes
 type Schema struct {
-	XMLName     xml.Name      `xml:"Schema"`
-	SimpleField []SimpleField `xml:"SimpleField"`
+	Name        string        `xml:"name,attr" json:"name,attr"`
+	ID          string        `xml:"id,attr" json:"id,attr"`
+	SimpleField []SimpleField `xml:"SimpleField" json:"SimpleField"`
 }
 
 type SimpleField struct {
-	XMLName xml.Name `xml:"SimpleField"`
-	Name    string   `xml:"name"`
-	Type    string   `xml:"type"`
+	Name string `xml:"name,attr" json:"name,attr"`
+	Type string `xml:"type,attr" json:"type,attr"`
 }
 
 // the Folder struct holds all the Placemarks (drawing items)
 type Folder struct {
-	XMLName   xml.Name    `xml:"Folder"`
-	Name      string      `xml:"name"`
-	Placemark []Placemark `xml:"Placemark"`
+	Name       string      `xml:"name" json:"name"`
+	Placemarks []Placemark `xml:"Placemark"`
 }
 
-// Placemarks are the root level of the geom
 type Placemark struct {
-	XMLName       xml.Name     `xml:"Placemark"`
-	Name          string       `xml:"name"`
-	Style         Style        `xml:"Style"`
-	MultiGeometry []Geom       `xml:"MultiGeometry"`
-	ExtendedData  ExtendedData `xml:"ExtendedData"`
+	Name          string        `xml:"name" json:"name"`
+	Style         Style         `xml:"Style" json:"Style"`
+	MultiGeometry MultiGeometry `xml:"MultiGeometry" json:"MultiGeometry"`
+	Point         Point         `xml:"Point"`
+	ExtendedData  ExtendedData  `xml:"ExtendedData" json:"ExtendedData"`
 }
 
 // Styles are the colors pre assigned
+// The following are all STYLES
 type Style struct {
-	XMLName   xml.Name  `xml:"Style"`
-	LineStyle LineStyle `xml:"LineStyle"`
-	PolyStyle PolyStyle `xml:"PolyStyle"`
+	LineStyle LineStyle `xml:"LineStyle" json:"LineStyle"`
+	PolyStyle PolyStyle `xml:"PolyStyle" json:"PolyStyle"`
 }
 
 type LineStyle struct {
-	XMLName xml.Name `xml:"LineStyle"`
-	Color   string   `xml:"color"`
+	Color string `xml:"color" json:"color"`
 }
 
 type PolyStyle struct {
-	XMLName xml.Name `xml:"PolyStyle"`
-	Fill    string   `xml:"fill"`
+	Fill string `xml:"fill" json:"fill"`
 }
 
-// MultiGeometry describes various geom types
+// GEOMS
+// MultiGeometry is the container
 type MultiGeometry struct {
-	XMLName    xml.Name   `xml:"MultiGeometry"`
-	LineString Linestring `xml:"LineString"`
-	Polygon    Polygon    `xml:"Polygon"`
+	LineString LineString `xml:"LineString" json:"LineString"`
+	Polygon    Polygon    `xml:"Polygon" json:"Polygon"`
+}
+
+type Point struct {
+	StringCoords string    `xml:"coordinates" json:"-"`
+	Coordinates  []float64 `json:"coordinates"`
 }
 
 type LineString struct {
-	XMLName     xml.Name    `xml:"LineString"`
-	Coordinates [][]float64 `xml:"coordinates"`
+	StringCoords string      `xml:"coordinates" json:"-"`
+	Coordinates  [][]float64 `json:"coordinates"`
 }
 
 type Polygon struct {
-	XMLName       xml.Name      `xml:"Polygon"`
-	OuterBoundary OuterBoundary `xml:"outerBoundaryIs"`
+	OuterBoundary OuterBoundary `xml:"outerBoundaryIs" json:"outerBoundaryIs"`
 }
 
 type OuterBoundary struct {
-	XMLName    xml.Name   `xml:"outerBoundaryIs"`
-	LinearRing LinearRing `xml:"LinearRing"`
+	LinearRing LinearRing `xml:"LinearRing" json:"LinearRing"`
 }
 
 type LinearRing struct {
-	XMLName     xml.Name    `xml:"LinearRing"`
-	Coordinates [][]float64 `xml:"coordinates"`
+	StringCoords string      `xml:"coordinates" json:"-"`
+	Coordinates  [][]float64 `json"coordinates"`
 }
 
-// ExtendedData are attributes added to kmls that weren't in original schema
+// EXTENDED ATTRIBUTES
+// added to kmls that weren't in original schema
 type ExtendedData struct {
-	XMLName    xml.Name     `xml:"ExtendedData"`
-	SchemaData []SchemaData `xml:"SchemaData"`
+	SchemaData SchemaData `xml:"SchemaData" json:"SchemaData"`
 }
 
 type SchemaData struct {
-	XMLName    xml.Name     `xml:"SchemaData"`
-	SimpleData []SimpleData `xml:"SimpleData"`
+	Schema string	`xml:"schemaUrl,attr" json:"schemaUrl,attr"`
+	SimpleData []SimpleData `xml:"SimpleData" json:"SimpleData"`
 }
 
 type SimpleData struct {
-	XMLName xml.Name `xml:"SimpleData"`
-	Key     string   `xml:"name"`
-	Value   string   `xml:"SumpleData"`
+	Key   string `xml:"name,attr" json:"name,attr"`
+	Value string `xml:",chardata" json:",chardata"`
 }
 
 // unravel the xml into a single KML struct
 // all the code basically sets up the structs
 // the rest is just using xml to parse
-func Decode(f bytevalue) (*Kml, error) {
+func KmlDecode(f *bytes.Buffer, kml *Kml) {
 
-	var kml Kml
+	//xml.Unmarshal(f, kml)
+	d := xml.NewDecoder(f)
 
-	_, error := xml.UnMarshal(f, kml)
+	d.Decode(kml)
 
-	if err != nil {
-		return kml, err
+	for i, geom := range kml.Document.Folder.Placemarks {
+
+		// if point
+		if len(geom.Point.StringCoords) > 0 {
+			str := geom.Point.StringCoords
+
+			payload := coordStringDecode(str)
+
+			kml.Document.Folder.Placemarks[i].Point.Coordinates = payload[0]
+		}
+
+		// if linestring
+		if len(geom.MultiGeometry.LineString.StringCoords) > 0 {
+			str := geom.MultiGeometry.LineString.StringCoords
+
+			payload := coordStringDecode(str)
+
+			kml.Document.Folder.Placemarks[i].MultiGeometry.LineString.Coordinates = payload
+		}
+
+		// if polygon
+		if len(geom.MultiGeometry.Polygon.OuterBoundary.LinearRing.StringCoords) > 0 {
+			str := geom.MultiGeometry.Polygon.OuterBoundary.LinearRing.StringCoords
+
+			payload := coordStringDecode(str)
+
+			kml.Document.Folder.Placemarks[i].MultiGeometry.Polygon.OuterBoundary.LinearRing.Coordinates = payload
+		}
+	}
+}
+
+func coordStringDecode(str string) [][]float64 {
+	temp := strings.Split(str, " ")
+
+	var payload [][]float64
+
+	for _, coord := range temp {
+
+		xyz := strings.Split(coord, ",")
+
+		x, _ := strconv.ParseFloat(string(xyz[0]), 64)
+		y, _ := strconv.ParseFloat(string(xyz[1]), 64)
+
+		floatcoord := []float64{x, y}
+
+		// test if a third coord (elevation) is present!!
+		if len(xyz) > 2 {
+			z, _ := strconv.ParseFloat(string(xyz[2]), 64)
+			floatcoord = append(floatcoord, z)
+		}
+
+		payload = append(payload,floatcoord)
 	}
 
-	return kml, _
+	return payload
 }

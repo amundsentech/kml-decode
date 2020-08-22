@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Keno_Master_Flight_Lines" id="Keno_Master_Flight_Lines">
+	<SimpleField name="left" type="float"></SimpleField>
+	<SimpleField name="top" type="float"></SimpleField>
+	<SimpleField name="right" type="float"></SimpleField>
+	<SimpleField name="bottom" type="float"></SimpleField>
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>Keno_Master_Flight_Lines</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">489393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">489393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.272722366356,63.9579952192098 -135.230631256044,63.9396313859026</coordinates></LineString></MultiGeometry>sh 
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">489643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">489643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.268855408464,63.9594691437576 -135.226325490903,63.9409124029159</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">489893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">489893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.264988043849,63.9609429650958 -135.222019332413,63.9421932919736</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">490143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">490143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.26112027247,63.9624166832041 -135.217712780558,63.9434740530541</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">490393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">490393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">34</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.257252094287,63.9638902980626 -135.213405835321,63.9447546861357</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">490643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">490643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">35</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.25338350926,63.9653638096511 -135.142969402024,63.917097480684</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">490893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">490893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.24951451735,63.9668372179495 -135.138494041707,63.9183018004152</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">491143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">491143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">37</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.245645118516,63.9683105229378 -135.134018297445,63.9195059818023</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">491393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">491393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">38</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.241775312719,63.9697837245959 -135.12954216923,63.9207100248233</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">491643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">491643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.237905099917,63.9712568229036 -135.125065657058,63.9219139294562</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">491893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">491893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.234034480073,63.9727298178408 -135.120588760921,63.923117695679</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">492143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">492143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">41</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.230163453144,63.9742027093875 -135.116111480815,63.9243213234698</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">492393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">492393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">42</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.226292019092,63.9756754975235 -135.111633816733,63.9255248128066</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">492643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">492643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">43</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.222420177876,63.9771481822287 -135.107155768669,63.9267281636673</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">492893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">492893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">44</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.218547929457,63.978620763483 -135.102677336618,63.92793137603</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">493143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">493143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">45</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.214675273794,63.9800932412663 -135.098198520574,63.9291344498727</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">493393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">493393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.210755137937,63.9815450760114 -135.09371932053,63.9303373851734</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">493643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">493643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">47</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.206779049272,63.9829725661785 -135.089239736481,63.9315401819101</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">493893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">493893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">48</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.202802555155,63.9843999472821 -135.084759768421,63.9327428400608</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">494143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">494143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">49</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.176485155119,63.9760719970386 -135.080279416345,63.9339453596035</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">494393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">494393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.170504928801,63.9766232798561 -135.075798680246,63.9351477405162</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">494643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">494643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">51</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.164524466788,63.9771743162794 -135.071317560119,63.936349982777</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">494893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">494893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.158543769184,63.9777251062906 -135.066836055957,63.9375520863638</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">495143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">495143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.15256283609,63.9782756498717 -135.062354167756,63.9387540512547</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">495393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">495393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">54</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.146581667609,63.9788259470048 -135.05787189551,63.9399558774276</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">495643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">495643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">55</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.140600263842,63.9793759976718 -135.053389239213,63.9411575648605</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">495893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">495893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">56</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.134618624894,63.9799258018549 -135.048906198858,63.9423591135314</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">496143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">496143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">57</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.128636750865,63.980475359536 -135.044422774442,63.9435605234184</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">496393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">496393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">58</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.122654641858,63.9810246706972 -135.039938965957,63.9447617944995</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">496643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">496643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">59</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.116672297975,63.9815737353207 -135.035454773398,63.9459629267525</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">496893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">496893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">60</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.11068971932,63.9821225533884 -135.03097019676,63.9471639201556</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">497143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">497143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">61</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.104706905994,63.9826711248825 -135.026485236037,63.9483647746867</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">497393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">497393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">62</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.098723858099,63.983219449785 -135.021999891223,63.9495654903238</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">497643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">497643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.092740575739,63.983767528078 -135.017514162314,63.9507660670449</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">497893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">497893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">64</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.086757059016,63.9843153597437 -135.013028049303,63.9519665048281</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">498143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">498143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">65</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.080773308033,63.9848629447642 -135.008541552184,63.9531668036512</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">498393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">498393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">66</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.074789322891,63.9854102831215 -135.004054670953,63.9543669634923</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">498643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">498643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">67</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.068805103694,63.9859573747979 -134.999567405604,63.9555669843294</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">498893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">498893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">68</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.062820650545,63.9865042197753 -134.995079756131,63.9567668661404</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">499143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">499143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">69</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.056835963546,63.9870508180361 -134.990591722529,63.9579666089034</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">499393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">499393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">70</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.050851042799,63.9875971695623 -134.986103304793,63.9591662125963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">499643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">499643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.044865888408,63.9881432743361 -134.981614502917,63.9603656771972</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">499893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">499893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">72</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.038880500475,63.9886891323397 -134.977125316895,63.961565002684</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">500143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">500143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">73</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.032894879103,63.9892347435552 -134.972635746723,63.9627641890346</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">500393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">500393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">74</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.026909024396,63.9897801079648 -134.968145792394,63.9639632362271</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">500643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">500643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">75</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.020922936455,63.9903252255507 -134.963655453904,63.9651621442395</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">500893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">500893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">76</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.014936615383,63.9908700962952 -134.959164731247,63.9663609130498</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">501143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">501143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">77</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.008950061284,63.9914147201804 -134.954673624418,63.9675595426358</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">501393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">501393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">78</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-135.002963274261,63.9919590971884 -134.950182133412,63.9687580329757</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">501643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">501643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">79</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.996976254416,63.9925032273016 -134.945690258223,63.9699563840473</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">501893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">501893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">80</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.990989001853,63.9930471105023 -134.941197998846,63.9711545958288</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">502143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">502143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">81</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.985001516674,63.9935907467725 -134.936705355276,63.9723526682979</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">502393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">502393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">82</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.979013798982,63.9941341360945 -134.932212327508,63.9735506014327</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">502643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">502643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">83</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.973025848882,63.9946772784507 -134.927718915535,63.9747483952113</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">502893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">502893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">84</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.967037666475,63.9952201738232 -134.927994322713,63.9780460605558</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">503143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">503143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">85</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.959707619402,63.9951730991882 -134.928374698807,63.9813899049487</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">503393.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">503393.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">86</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.95231556178,63.9950983792614 -134.928755165506,63.984733746802</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">503643.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">503643.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">87</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.94492354388,63.9950232830421 -134.929135722847,63.9880775861154</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">503893.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">503893.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">88</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.937531565925,63.9949478105339 -134.929516370865,63.9914214228887</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#Keno_Master_Flight_Lines">
+		<SimpleData name="left">504143.6871593152172863</SimpleData>
+		<SimpleData name="top">7100314.1935241073369980</SimpleData>
+		<SimpleData name="right">504143.6871593152172863</SimpleData>
+		<SimpleData name="bottom">7083967.9672635700553656</SimpleData>
+		<SimpleData name="id">89</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>-134.930139628136,63.9948719617408 -134.929897109598,63.9947652571215</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
