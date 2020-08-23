@@ -8,7 +8,7 @@ import (
 )
 
 // the complete array of all items
-type Kml struct {
+type KML struct {
 	XMLName  xml.Name `xml:"kml" json:"kml"`
 	//XMLNS    string   `xml:"xmlns,attr" json:"xmlns,attr"`
 	Document Document `xml:"Document" json:"Document"`
@@ -113,7 +113,7 @@ type SimpleData struct {
 // unravel the xml into a single KML struct
 // all the code basically sets up the structs
 // the rest is just using xml to parse
-func KmlDecode(f *bytes.Buffer, kml *Kml) {
+func KMLDecode(f *bytes.Buffer, kml *KML) {
 
 	// xml.Unmarshal(f, kml)
 	d := xml.NewDecoder(f)

@@ -40,9 +40,9 @@ func TestKML2Struct(t *testing.T) {
 		kmlbuf := bytes.NewBuffer(kmlbyte)
 
 		// this is the test!!!
-		var kml Kml
+		var kml KML
 
-		KmlDecode(kmlbuf, &kml)
+		KMLDecode(kmlbuf, &kml)
 
 		kmljson, err := json.Marshal(kml)
 		if err != nil {
@@ -51,6 +51,6 @@ func TestKML2Struct(t *testing.T) {
 
 		//fmt.Printf("Inbound reads like:\n%v\n", string(kmlbyte))
 		// what does it look like?
-		fmt.Printf("KML struct as json reads:\n%v\n", string(kmljson))
+		fmt.Printf("KML struct as json reads:\n%v\n", string(kmljson)[0:1000])
 	}
 }
